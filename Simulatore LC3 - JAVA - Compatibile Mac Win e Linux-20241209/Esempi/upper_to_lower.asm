@@ -1,5 +1,8 @@
 .ORIG x3000
 
+; Creare un ciclo in cui carico un carattere (maiuscolo) e lo trasformo
+; in minuscolo , finchè il carattere non è quello di INVIo (ASCII x0A)
+
 GETC
 ST R0, CHAR
 LD R1, THIRTYTWO
