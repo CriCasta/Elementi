@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	RISULTATO         3010
+//	VAR3              300F
+//	VAR2              300E
+//	VAR1              300D
+//	SOTTRAZIONE       3009
+
