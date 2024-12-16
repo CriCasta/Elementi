@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	DOPPIABASE        300D
+//	BASE              300B
+//	ALTEZZA           300C
+//	DIFFERENZA        300E
+

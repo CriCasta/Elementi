@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	VAR               3013
+//	INIZIO_FOR        3002
+//	VET               3009
+//	FINE_FOR          3008
+

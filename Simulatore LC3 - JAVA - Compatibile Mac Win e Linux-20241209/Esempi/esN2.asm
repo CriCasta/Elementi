@@ -1,0 +1,27 @@
+;; DATA UNA VARIABILE IN MEMORIA CONTA (AD ESEMPIO 10)
+;; SOMMARE TRA LORO TUTTI I VALORI TRA 0 E 10
+.ORIG x3000
+	LD R0, CONTA 		;LIMITE CICLO
+	LD R1, INDICE           ;INDICE DEL CICLO
+
+	AND R4, R4, 0
+	
+INIZIO	NOT R3, R1              ; R1 -> -R1
+	ADD R3, R3, 1
+	
+	ADD R2, R3, R0
+	BRz FINE
+	ADD R4, R4, R1
+
+	ADD R1, R1, 1
+	
+	BRnzp INIZIO
+
+FINE    ST R4, RISULTATO
+	HALT	
+	
+   ; Definizione di variabili
+   INDICE .FILL 0 		; 
+   CONTA .FILL 10 ; 3002 Valore espresso in decimale
+   RISULTATO .FILL 0	
+.END

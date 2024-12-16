@@ -1,0 +1,24 @@
+.ORIG x3000
+
+LEA R0, VET
+AND R1, R1, 0
+
+INIZIO_FOR
+
+	ADD R2, R1, -10
+	BRz FINE_FOR
+
+	STR R1, R0, 0
+
+	ADD R0, R0, 1
+	ADD R1, R1, 1
+	BR INIZIO_FOR       
+
+FINE_FOR
+
+    	HALT
+
+VET .BLKW 10
+VAR .FILL 25
+
+.END
