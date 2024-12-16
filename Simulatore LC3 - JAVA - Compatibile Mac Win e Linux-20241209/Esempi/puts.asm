@@ -1,0 +1,10 @@
+.ORIG x3000
+	LEA	R0, STRINGA
+	PUTS
+	
+	HALT
+	
+STRINGA 	.STRINGZ	"Ciao Mondo"
+BASE		.FILL		22
+
+.END
